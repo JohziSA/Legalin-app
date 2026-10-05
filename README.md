@@ -1,3 +1,5 @@
+![Legalin](banner.jpg)
+
 # Legalin
 
 Mobile app for personal and business accounts. Built with React Native and Expo.
