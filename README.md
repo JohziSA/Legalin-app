@@ -1,44 +1,14 @@
-# 📜 Legalin-App
+# Legalin
 
-A **React Native + Expo + Node.js** mobile application
+Mobile app for personal and business accounts. Built with React Native and Expo.
 
----
+Sign in, register as a person or a business, then use home, profile, and chat. Auth is Clerk. Data is Supabase.
 
-## 📜 License
+## Run
 
-This project is licensed under the **JohziSA License**.
+```bash
+npm install
+npx expo start
+```
 
-- ✅ **Free** for personal & educational use  
-- 💰 **Commercial use** requires a paid license  
-
-See [LICENSE](./LICENSE) for details.
-
----
-
-## 📖 Overview
-
-**Legalin-App** is a cross-platform mobile application built with **React Native** and **Expo**, backed by a **Node.js** server.  
-It’s designed to deliver a smooth, modern mobile experience with robust backend support.
-
-Whether you’re developing, testing, or deploying for production, Legalin-App offers a clean, maintainable codebase and scalable architecture.
-
----
-
-## 🚀 Features
-
-- 📱 **Cross-platform support** (iOS & Android) using React Native + Expo  
-- ⚡ **Fast development** with hot reloading and Expo Dev Tools  
-- 🌐 **API-driven backend** built with Node.js  
-- 🎨 **Customizable UI** with reusable components  
-- 🔒 **Secure architecture** with authentication support  
-- 📦 **Easy deployment** via Expo EAS and Node.js hosting  
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React Native, Expo  
-- **Backend**: Node.js  
-- **Database**: Supabase, PostgreSQL  
-- **Version Control**: Git & GitHub  
-- **Deployment**: Expo EAS
+Copy `.env.example` to `.env` and fill in your own Clerk and Supabase values. Those keys stay on your machine. They are not in this repository.
